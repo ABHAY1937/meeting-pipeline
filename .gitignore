@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Meeting recordings and results: keep the folders, ignore the contents
+meetings/*
+!meetings/.gitkeep
+!meetings/inbox/
+meetings/inbox/*
+!meetings/inbox/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
